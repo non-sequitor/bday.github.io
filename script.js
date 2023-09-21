@@ -244,6 +244,7 @@ function move(){
 		ctx.drawImage(end2,200,250);
 	}
 	
+	
 	if (!paused){
 		requestAnimationFrame(move);
 	}
